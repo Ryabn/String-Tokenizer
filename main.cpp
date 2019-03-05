@@ -1,7 +1,7 @@
-#include <iostream>
-using namespace std;
+#include "testing.h"
 
 int main(int argc, char const *argv[]){
-    cout << "init" << endl;
+    // test_token();
+    test_string_tokenizer();
     return 0;
 }
